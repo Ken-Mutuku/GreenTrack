@@ -1,8 +1,7 @@
- GreenChain - Blockchain-Based Agricultural Supply Chain
+ GreenChain - Blockchain-Based Agricultural Broker 
 
 Overview
-GreenChain is a blockchain-powered solution enhancing traceability, transparency, and trust in food supply chains. 
-It helps farmers, distributors, and consumers verify agricultural products from farm to table.
+Greenchain is a blockchain-based agricultural broker that eliminates unnecessary intermediaries, enabling farmers and consumers to interact directly via a secure digital marketplace. With blockchain’s decentralized and immutable ledger, this platform ensures trust, fair pricing, and seamless transactions—all accessible from a mobile device.
 
  Features
 - Immutable Blockchain Records
