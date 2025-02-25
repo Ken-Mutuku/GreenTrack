@@ -25,27 +25,6 @@ Tech Stack
 
 
 
-```
-
-## 🔧 Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Ken-Mutuku/GreenChain.git
-   cd greenchain
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the server:
-   ```sh
-   npm run dev
-   ```
-4. Deploy Smart Contract:
-   ```sh
-   npx hardhat run scripts/deploy.js --network rinkeby
-   ```
-
  Future Plans
 - AI-based yield analytics
 - DeFi-powered farmer loans
