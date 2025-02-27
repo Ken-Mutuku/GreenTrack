@@ -1,15 +1,15 @@
-### GreenChain: Blockchain-Based Agricultural Traceability Platform
+## GreenChain: Blockchain-Based Agricultural Traceability Platform
 
-## Overview
+### Overview
 GreenChain is a blockchain-based agricultural broker platform designed to enhance traceability and transparency in the agricultural supply chain. By leveraging blockchain technology, GreenChain provides a verifiable and immutable record of every product's journey—from farm to market—ensuring authenticity, quality, and trust for all stakeholders.
 
-## Key Features
+### Key Features
 -Traceability: Track the journey of agricultural products from farm to market using blockchain and QR codes.
 -Transparency: Provide a publicly accessible ledger for all transactions and product information.
 -Smart Contracts: Automate payments and product verification to ensure trust and efficiency.
 -Market Accessibility: Enable farmers to list products and connect with buyers seamlessly.
 
-## Tech Stack
+### Tech Stack
 - Blockchain: Ethereum 
 - Smart Contracts: Solidity
 - Frontend: React.js
@@ -17,12 +17,12 @@ GreenChain is a blockchain-based agricultural broker platform designed to enhanc
 - Storage: IPFS / Arweave
 - Wallet Integration: MetaMask / Web3.js
 
-## Use Case: Maize Traceability
+### Use Case: Mangoes Traceability
 1. Farmer Registration & Input Tracking 
 2. Harvest & Processing Records
 3. Distribution & Retail Tracking  
 
-## Problem Solved
+### Problem Solved
 The traditional agricultural supply chain suffers from:
 -Lack of Traceability: Inability to verify product origins and quality.
 -Lack of Transparency: Farmers and buyers cannot access reliable information about product authenticity or pricing.
