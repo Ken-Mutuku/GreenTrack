@@ -44,4 +44,7 @@ The Blockchain-Based Supply Chain System is a solution designed to address the l
 - Member 5 - Richard Kawenze
 - Member 6 - John Kabuthi
 
+Copyright
+  Read the license and copyright for the above project at @CopyRight.md
+  
 
