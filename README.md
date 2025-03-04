@@ -1,39 +1,52 @@
-## GreenChain: Blockchain-Based Agricultural Traceability Platform
+Blockchain-Based Supply Chain System for Fresh Produce Traceability
 
-### Overview
-GreenChain is a blockchain-based agricultural broker platform designed to enhance traceability and transparency in the agricultural supply chain. By leveraging blockchain technology, GreenChain provides a verifiable and immutable record of every product's journey—from farm to market—ensuring authenticity, quality, and trust for all stakeholders.
+Project Overview
+The Blockchain-Based Supply Chain System is a solution designed to address the lack of transparency and traceability in agricultural supply chains. This system records product information on a **blockchain network** and provides QR code-based traceability for consumers to verify the origin, quality, and authenticity of fresh produce.
 
-### Key Features
--Traceability: Track the journey of agricultural products from farm to market using blockchain and QR codes.
--Transparency: Provide a publicly accessible ledger for all transactions and product information.
--Smart Contracts: Automate payments and product verification to ensure trust and efficiency.
--Market Accessibility: Enable farmers to list products and connect with buyers seamlessly.
+Key Features
+- Blockchain-based data storage for immutable product records
+- QR Code Generation for each produce batch
+- Consumer-friendly QR Code Scanning Interface
+- Verified product quality information
+- Basic AI Summary Module for generating product descriptions
+- Secure, transparent, and accessible records
 
-### Tech Stack
-- Blockchain: Ethereum 
-- Smart Contracts: Solidity
-- Frontend: React.js
-- Backend: Node.js
-- Storage: IPFS / Arweave
-- Wallet Integration: MetaMask / Web3.js
+Technology Stack
+- Blockchain Platform: Hyperledger Fabric
+- Frontend Framework: React Native
+- Backend API: Node.js + Express.js
+- Database: MongoDB
+- QR Code Generation: QR Code API
+- AI Module: TensorFlow (Minimal use)
+- Cloud Hosting: AWS EC2
 
-### Use Case: Mangoes Traceability
-1. Farmer Registration & Input Tracking 
-2. Harvest & Processing Records
-3. Distribution & Retail Tracking  
+System Workflow
+1. Farmer Brings Produce to Collection Point
+2. Agency Tests Produce Quality
+3. Quality Test Results Input into System
+4. Blockchain Network Stores Data
+5. QR Code Generated and Linked to Blockchain Record
+6. Consumer Scans QR Code to Verify Product Origin and Quality**
 
-### Problem Solved
-The traditional agricultural supply chain suffers from:
--Lack of Traceability: Inability to verify product origins and quality.
--Lack of Transparency: Farmers and buyers cannot access reliable information about product authenticity or pricing.
--Limited Market Access: Small-scale farmers struggle to reach high-value buyers.
 
-GreenChain addresses these challenges by providing a decentralized, transparent, and efficient marketplace that ensures trust, reduces fraud, and improves market access.
 
-## Contribute
-Submit issues and pull requests to improve GreenChain!
-📜 License
-MIT License.
+ QR Code Demonstration
+- Generate QR codes for each produce batch using the QR Code Generator API.
+- Scan QR codes via the mobile application to access product traceability information.
 
+API Endpoints
+| Endpoint               | Method | Description               |
+|-----------------------|--------|--------------------------|
+| `/api/register`       | POST   | Register Produce Batch    |
+| `/api/qrcode`         | GET    | Generate QR Code         |
+| `/api/traceability/:id`| GET    | View Product Information  |
+
+Contributors
+- Member 1
+- Member 2
+- Member 3
+- Member 4
+- Member 5
+- Member 6
 
 
