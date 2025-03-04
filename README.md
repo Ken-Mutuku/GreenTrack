@@ -1,9 +1,10 @@
-Blockchain-Based Supply Chain System for Fresh Produce Traceability
+GREENTRACK
+## Blockchain-Based Supply Chain System for Fresh Produce Traceability
 
-Project Overview
+### Project Overview
 The Blockchain-Based Supply Chain System is a solution designed to address the lack of transparency and traceability in agricultural supply chains. This system records product information on a **blockchain network** and provides QR code-based traceability for consumers to verify the origin, quality, and authenticity of fresh produce.
 
-Key Features
+### Key Features
 - Blockchain-based data storage for immutable product records
 - QR Code Generation for each produce batch
 - Consumer-friendly QR Code Scanning Interface
@@ -11,8 +12,8 @@ Key Features
 - Basic AI Summary Module for generating product descriptions
 - Secure, transparent, and accessible records
 
-Technology Stack
-- Blockchain Platform: Hyperledger Fabric
+### Technology Stack
+- Blockchain Platform: Ethereum
 - Frontend Framework: React Native
 - Backend API: Node.js + Express.js
 - Database: MongoDB
@@ -20,7 +21,7 @@ Technology Stack
 - AI Module: TensorFlow (Minimal use)
 - Cloud Hosting: AWS EC2
 
-System Workflow
+### System Workflow
 1. Farmer Brings Produce to Collection Point
 2. Agency Tests Produce Quality
 3. Quality Test Results Input into System
@@ -30,23 +31,20 @@ System Workflow
 
 
 
- QR Code Demonstration
+ ### QR Code Demonstration
 - Generate QR codes for each produce batch using the QR Code Generator API.
 - Scan QR codes via the mobile application to access product traceability information.
 
-API Endpoints
-| Endpoint               | Method | Description               |
-|-----------------------|--------|--------------------------|
-| `/api/register`       | POST   | Register Produce Batch    |
-| `/api/qrcode`         | GET    | Generate QR Code         |
-| `/api/traceability/:id`| GET    | View Product Information  |
 
-Contributors
-- Member 1
-- Member 2
-- Member 3
-- Member 4
-- Member 5
-- Member 6
+### Contributors
+- Member 1 - Victor Mulila
+- Member 2 - Theophilus Korir
+- Member 3 - Ken Mutuku
+- Member 4 - Lee Thiong'o
+- Member 5 - Richard Kawenze
+- Member 6 - John Kabuthi
 
+Copyright
+  Read the license and copyright for the above project at @CopyRight.md
+  
 
