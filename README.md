@@ -13,7 +13,7 @@ The Blockchain-Based Supply Chain System is a solution designed to address the l
 - Secure, transparent, and accessible records
 
 ### Technology Stack
-- Blockchain Platform: Hyperledger Fabric
+- Blockchain Platform: Ethereum
 - Frontend Framework: React Native
 - Backend API: Node.js + Express.js
 - Database: MongoDB
