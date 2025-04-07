@@ -60,5 +60,5 @@ jobs:
         with:
           app-name: 'greenchain-backend'
           slot-name: 'Production'
-          package: .
+          package: ./backend
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D8A44A1F164B4FB2B7C204B7C6922E9A }}
