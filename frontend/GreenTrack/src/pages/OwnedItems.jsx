@@ -1,6 +1,6 @@
 import React from "react";
-import { ethers } from "ethers";
-import '../styles/OwnedItems.css'; // Optional: styling
+import { formatEther } from "ethers";
+import '../styles/OwnedItems.css';
 
 const OwnedItems = ({ ownedItems }) => {
   return (
@@ -12,7 +12,7 @@ const OwnedItems = ({ ownedItems }) => {
         ownedItems.map((item) => (
           <div key={item.id.toString()} className="item-card">
             <p><strong>Name:</strong> {item.name}</p>
-            <p><strong>Price:</strong> {ethers.utils.formatEther(item.price)} ETH</p>
+            <p><strong>Price:</strong> {formatEther(item.price)} ETH</p>
             <p><strong>Owner:</strong> {item.owner}</p>
           </div>
         ))

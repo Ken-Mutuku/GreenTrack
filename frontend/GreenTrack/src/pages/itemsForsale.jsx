@@ -65,8 +65,8 @@ const ItemsForSale = ({ items, account, purchaseItem }) => {
                 <div className="item-details">
                   <h3 className="item-name">{item.name}</h3>
                   <div className="item-price">
-                    <span className="eth-price">{ethers.utils.formatEther(item.price)} ETH</span>
-                    <span className="usd-price">${(ethers.utils.formatEther(item.price) * 1551.04).toFixed(2)} USD</span>
+                    <span className="eth-price">{ethers.formatEther(item.price)} ETH</span>
+                    <span className="usd-price">${(ethers.formatEther(item.price) * 1551.04).toFixed(2)} USD</span>
                   </div>
                   
                   <div className="item-meta">
