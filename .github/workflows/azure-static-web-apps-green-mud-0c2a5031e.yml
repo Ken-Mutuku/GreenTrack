@@ -28,6 +28,7 @@ jobs:
         with:
             node-version: '20.x'
             cache: 'yarn'
+            cache-dependency-path: 'frontend/GreenTrack/yarn.lock'
       - name: Install OIDC Client from Core Package
         run: npm install @actions/core@1.6.0 @actions/http-client
       - name: Get Id Token
