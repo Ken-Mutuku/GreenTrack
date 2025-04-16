@@ -1,0 +1,18 @@
+.owned-items {
+    padding: 1.5rem;
+    background-color: #eef6f9;
+  }
+  
+  .item-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .item-card p {
+    margin: 0.3rem 0;
+  }
+  
