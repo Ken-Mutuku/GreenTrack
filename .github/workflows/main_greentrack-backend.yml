@@ -66,3 +66,5 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA263AACCA2449DC8DE38B5F3FE2FD08 }}
+          enable-submodules: true
+          scm-do-build-during-deployment: true # Optional: Forces build during deployment
