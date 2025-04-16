@@ -2,7 +2,7 @@
 **/node_modules
 
 # Vite build output
-/frontend/dist
+/frontend/GreenTrack/dist
 
 # Logs
 npm-debug.log*
@@ -16,8 +16,8 @@ pnpm-debug.log*
 **/.env.*.local
 
 # Vite + dev caches
-/frontend/.vite
-/frontend/.cache
+/frontend/GreenTrack/.vite
+/frontend/GreenTrack/.cache
 
 # IDE/Editor folders
 .vscode
