@@ -5,7 +5,7 @@ import "./App.css";
 
 import Items from "./pages/Items.jsx";
 import OwnedItems from "./pages/OwnedItems.jsx";
-import ItemsForSale from "./pages/ItemsForSale.jsx";
+import ItemForSale from "./pages/ItemForSale.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 
@@ -141,7 +141,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/buy" element={<ItemsForSale items={items} account={account} purchaseItem={purchaseItem} />} />
+          <Route path="/buy" element={<ItemForSale items={items} account={account} purchaseItem={purchaseItem} />} />
           <Route path="/list" element={<Items contract={contract} listItem={listItem} />} />
           <Route path="/myitems" element={<OwnedItems ownedItems={ownedItems} />} />
         </Routes>
