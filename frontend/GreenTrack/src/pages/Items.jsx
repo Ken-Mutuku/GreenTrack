@@ -1,5 +1,6 @@
 // Always capitalise jsx
 import React, { useState } from 'react';
+import '../styles/items.css';
 
 
 const Items = ({ contract, listItem }) => {
