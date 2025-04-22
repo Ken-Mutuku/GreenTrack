@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
-import './Track.css';
+import '../styles/Track.css';
 
 const Track = () => {
   const [trackingId, setTrackingId] = useState('');

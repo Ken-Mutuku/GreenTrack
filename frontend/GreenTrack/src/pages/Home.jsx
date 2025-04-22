@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
+
 const Home = () => {
   return (
     <div className="home-container">
@@ -12,7 +13,7 @@ const Home = () => {
           <p>Track your food's journey from farm to table with blockchain-powered transparency</p>
           <div className="hero-buttons">
             <Link to="/track" className="btn primary">Track a Product</Link>
-            <Link to="/register" className="btn secondary">Register Your Farm</Link>
+            <Link to="/list" className="btn secondary">Register Your Farm</Link>
           </div>
         </div>
         <div className="hero-image">
