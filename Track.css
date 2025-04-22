@@ -1,0 +1,346 @@
+.track-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .track-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .track-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .track-header p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+  
+  .track-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+  }
+  
+  .input-group button {
+    padding: 0 2rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .input-group button:hover {
+    background-color: #2ecc71;
+  }
+  
+  .input-group button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    text-align: center;
+  }
+  
+  .spinner {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s ease-in-out infinite;
+    margin-right: 0.5rem;
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .product-journey {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .product-overview {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .product-image {
+    position: relative;
+    flex: 0 0 300px;
+  }
+  
+  .product-image img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .organic-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #27ae60;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  .product-details h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .detail-row {
+    display: flex;
+    margin-bottom: 0.8rem;
+  }
+  
+  .detail-label {
+    font-weight: 600;
+    min-width: 120px;
+    color: #34495e;
+  }
+  
+  .journey-timeline {
+    margin: 3rem 0;
+  }
+  
+  .journey-timeline h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 50px;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ecf0f1;
+  }
+  
+  .timeline-event {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .event-icon {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .event-icon.farm {
+    background-color: #27ae60;
+  }
+  
+  .event-icon.transport {
+    background-color: #f39c12;
+  }
+  
+  .event-icon.warehouse {
+    background-color: #9b59b6;
+  }
+  
+  .event-content {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 3px solid #3498db;
+  }
+  
+  .event-content h4 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+  }
+  
+  .blockchain-link {
+    font-family: monospace;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  .environmental-data {
+    margin: 3rem 0;
+  }
+  
+  .environmental-data h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  
+  .data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .data-card {
+    background: white;
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .data-card h4 {
+    margin: 0 0 1rem 0;
+    color: #34495e;
+  }
+  
+  .data-values {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .data-values span {
+    background: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+  
+  .blockchain-verification {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .blockchain-verification h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .blockchain-verification p {
+    color: #7f8c8d;
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .verification-badge {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .tracking-help {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  .tracking-help h3 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .help-steps {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .help-step {
+    max-width: 200px;
+  }
+  
+  .step-number {
+    width: 40px;
+    height: 40px;
+    background: #3498db;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-weight: bold;
+  }
+  
+  .qr-example {
+    margin-top: 2rem;
+  }
+  
+  .qr-example img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .qr-example p {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .product-overview {
+      flex-direction: column;
+    }
+    
+    .product-image {
+      flex: 1 1 auto;
+    }
+  }
