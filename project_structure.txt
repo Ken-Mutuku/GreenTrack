@@ -1,0 +1,80 @@
+.
+├── Backend
+│   ├── config
+│   │   ├── blockchain.js
+│   │   └── db.js
+│   ├── contracts
+│   │   └── ProductTracking.sol
+│   ├── controllers
+│   │   ├── authController.js
+│   │   ├── blockchainController.js
+│   │   └── productController.js
+│   ├── index.js
+│   ├── middlewares
+│   │   ├── auth.js
+│   │   └── errorHandler.js
+│   ├── migrations
+│   ├── models
+│   │   ├── Product.js
+│   │   └── User.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── routes
+│   │   ├── authRoutes.js
+│   │   ├── blockchainRoutes.js
+│   │   └── productRoutes.js
+│   ├── smartcontractinteraction.js
+│   └── utils
+│       ├── blockchainUtils.js
+│       └── qrGenerator.js
+├── contracts
+│   ├── contract.sol
+│   └── supplychain.sol
+├── Frontend
+│   └── GreenTrack
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── public
+│       │   └── vite.svg
+│       ├── README.md
+│       ├── src
+│       │   ├── App.css
+│       │   ├── App.jsx
+│       │   ├── assets
+│       │   │   └── react.svg
+│       │   ├── components
+│       │   │   └── Navbar.jsx
+│       │   ├── contexts
+│       │   │   └── BlockchainContext.js
+│       │   ├── contracts
+│       │   │   └── ProductTracking.json
+│       │   ├── index.css
+│       │   ├── main.jsx
+│       │   ├── pages
+│       │   │   ├── AddProduce.jsx
+│       │   │   ├── Home.jsx
+│       │   │   ├── ItemForSale.jsx
+│       │   │   ├── Items.jsx
+│       │   │   ├── OwnedItems.jsx
+│       │   │   ├── ProduceView.jsx
+│       │   │   ├── Profile.jsx
+│       │   │   ├── Scan.jsx
+│       │   │   └── Track.jsx
+│       │   └── styles
+│       │       ├── AddProduce.css
+│       │       ├── Home.css
+│       │       ├── items.css
+│       │       ├── ItemsForSale.css
+│       │       ├── navbar.css
+│       │       ├── OwnedItems.css
+│       │       ├── ProduceView.css
+│       │       ├── Profile.css
+│       │       ├── Scan.css
+│       │       └── Track.css
+│       ├── vite.config.js
+│       └── yarn.lock
+└── project_structure.txt
+
+20 directories, 57 files
