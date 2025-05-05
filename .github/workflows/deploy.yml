@@ -30,10 +30,20 @@ jobs:
           cd backend
           npm install
 
+      - name: Run Backend Unit Tests
+        run: |
+          cd backend
+          npm test
+
       - name: Install Frontend Dependencies
         run: |
           cd frontend/GreenTrack
           yarn install
+       -name: Run Frontend Unit Tests
+        run: |
+          cd frontend/GreenTrack
+          yarn test --run
+
 
       - name: Build Frontend
         run: |
