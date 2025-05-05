@@ -1,6 +1,16 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
-
+# This section here disables this workflows temporarily till we set up containers:
+# azure-static-web-apps-ci-cd.yml
+name: "[LEGACY] Azure Static Web Apps CI/CD"  # Renamed
+on:
+  workflow_dispatch:  # Only runs manually
+  push:
+    branches: [main]
+    paths-ignore:     # Skip if Dockerfiles change
+      - '**/Dockerfile'
+      - '**/nginx.conf'
+      # It ends here
 name: Build and deploy Node.js app to Azure Web App - greentrack-backend
 
 on:
@@ -48,6 +58,12 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+  - name: Deploy to Azure Web App
+  uses: azure/webapps-deploy@v3
+  with:
+    app-name: 'greentrack-backend'
+    images: 'backend:${{ github.sha }}'
+    publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
     
     steps:
       - name: Download artifact from build job
