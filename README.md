@@ -3,6 +3,8 @@ GREENTRACK
 
 ### Project Overview
 The Blockchain-Based Supply Chain System is a solution designed to address the lack of transparency and traceability in agricultural supply chains. This system records product information on a **blockchain network** and provides QR code-based traceability for consumers to verify the origin, quality, and authenticity of fresh produce.
+access the site here:
+https://green-mud-0c2a5031e.6.azurestaticapps.net 
 
 ### Key Features
 - Blockchain-based data storage for immutable product records
