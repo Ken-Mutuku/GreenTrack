@@ -19,7 +19,7 @@ The Blockchain-Based Supply Chain System is a solution designed to address the l
 - Database: MongoDB
 - QR Code Generation: QR Code API
 - AI Module: TensorFlow (Minimal use)
-- Cloud Hosting: AWS EC2
+- Cloud Hosting: Azure container registry
 
 ### System Workflow
 1. Farmer Brings Produce to Collection Point
